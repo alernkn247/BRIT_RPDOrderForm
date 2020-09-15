@@ -3,9 +3,10 @@
   "description": "Process to download order report from the web, split the order requests for multiple area warehouse and also generate a consolidated report",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.9.2-preview]",
-    "UiPath.System.Activities": "[20.10.0-preview]",
-    "UiPath.UIAutomation.Activities": "[20.10.0-preview]"
+    "UiPath.Excel.Activities": "[2.8.6]",
+    "UiPath.System.Activities": "[20.4.0]",
+    "UiPath.Testing.Activities": "[1.2.0-preview]",
+    "UiPath.UIAutomation.Activities": "[20.4.2]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -35,7 +36,23 @@
     "processOptions": {
       "ignoredFiles": []
     },
-    "fileInfoCollection": [],
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "19d10cd1-76f8-4009-a731-94498e4fd8d9",
+        "fileName": "Tests\\Test_DownloadFile.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7543382a-8798-4f1a-b9d6-9cccbc2bd854",
+        "fileName": "Tests\\Test_GenerateSSReportDt.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "73291a8e-f2e0-4b24-9a52-777b698c3774",
+        "fileName": "Workflows\\Test_GenerateReport.xaml"
+      }
+    ],
     "modernBehavior": false
   },
   "expressionLanguage": "VisualBasic",

@@ -50,7 +50,7 @@
       {
         "editingStatus": "InProgress",
         "testCaseId": "73291a8e-f2e0-4b24-9a52-777b698c3774",
-        "fileName": "Workflows\\Test_GenerateReport.xaml"
+        "fileName": "Tests\\Test_GenerateReport.xaml"
       }
     ],
     "modernBehavior": false
